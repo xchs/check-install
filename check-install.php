@@ -48,7 +48,7 @@ shell_exec("rm -rf $folder/.gitattributes $folder/.gitignore $folder/README.md $
 shell_exec("mv $folder/* ./");
 
 // Make sure to move also hidden files and folders
-shell_exec("mv $folder/.[a-z]* ./");
+// shell_exec("mv $folder/.[a-z]* ./");
 
 // Remove the unzip directory
 shell_exec("rm -rf $folder");
