@@ -42,7 +42,7 @@ else
 $folder = trim(shell_exec("ls -d contao-check-*"));
 
 // Remove some unwanted files and folders
-shell_exec("rm -rf $folder/.gitignore $folder/README.md $folder/.tx");
+shell_exec("rm -rf $folder/.gitattributes $folder/.gitignore $folder/README.md $folder/.tx");
 
 // Move subfolder contents into current directory
 shell_exec("mv $folder/* ./");
