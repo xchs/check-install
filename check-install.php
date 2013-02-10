@@ -1,3 +1,4 @@
+#!/usr/bin/env php
 <?php
 
 /**
@@ -55,5 +56,3 @@ shell_exec("rm check-install.php");
 
 // Redirect to the "check" folder and run the Contao Check
 Header("Location: check/");
-
-?>
